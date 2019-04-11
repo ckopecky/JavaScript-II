@@ -1,26 +1,53 @@
+
 # JavaScript - II
-With some basic JavaScript principles we can now expand our skills out even further by exploring array methods like:  `.forEach()`, `.map()`, `.reduce()`, and `.filter()`. We can also look at how closures have a large impact on how we write JavaScript.    
 
-## Assignment Description
+With some basic JavaScript principles in hand, we can now expand our skills out even further by exploring callback functions, array methods, and closure.  Finish each task in order as the concepts build on one another.
 
-* Fork/Clone this repository.
-* Complete all the exercises as described inside each assignment file.
-* Use `console.log()` statements to check to see if your code does what it is supposed to do.
-* To test your `console` statements you can run `node /assignments/<fileName>` and see what prints in your terminal. You can also use an online tool like `JSBin`, `REPL.it`, `JSFiddle`, or even your `Chrome developer console`.
-* Once you finish the exercises in each file, commit your code, and push it to your fork. 
+## Set Up The Project With Git
 
-### Function Conversion
-You will see more and more arrow functions as you progress deeper into JavaScript.  Use the [function-conversion.js](assignments/function-conversion.js) file as a helper challenge to showcase some of the differences between ES5 and ES6 syntax. 
+**Follow these steps to set up and work on your project:**
 
-### Array Methods
-Use `.forEach()`, `.map()`, `.filter()`, and `.reduce()` to loop over an array with 50 objects in it. The [array-methods.js](assignments/array-methods.js) file contains several challenges built around a fund rasising 5k fun run event.
+* [ ] Create a forked copy of this project.
+* [ ] Add your project manager as collaborator on Github.
+* [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
+* [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+* [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+* [ ] Push commits: git push origin `<firstName-lastName>`.
 
-* Read the instructions found within the file carefully to finish the challenges. 
-* The last challenge is to come up with 3 problems to solve and then build a solution for them using any of the array methods listed above.
-* Share one of your favorite problem/solutions in your team meeting.
-* Complete each challenge presented before moving on to closure.
+**Follow these steps for completing your project.**
 
-### Closures
-The [closure.js](assignments/closure.js) assignment showcases how variables can be used outside of functions to store state using closure.  
+* [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+* [ ] Add your project manager as a reviewer on the pull-request
+* [ ] Your project manager will count the project as complete by merging the branch back into master.
 
-* Complete each challenge.
+## Task 2: Higher Order Functions and Callbacks
+
+This task focuses on getting practice with higher order functions and callback functions by giving you an array of values and instructions on what to do with that array.
+
+* [ ] Review the contents of the [callbacks.js](assignments/callbacks.js) file.  Notice you are given an array at the top of the page.  Use that array to aid you with your functions.
+
+* [ ] Complete the problems provided to you but skip over stretch problems until you are complete with every other JS file first.
+
+## Task 3: Array Methods
+
+Use `.forEach()`, `.map()`, `.filter()`, and `.reduce()` to loop over an array with 50 objects in it. The [array-methods.js](assignments/array-methods.js) file contains several challenges built around a fundraising 5K fun run event.
+
+* [ ] Review the contents of the [array-methods.js](assignments/array-methods.js) file.  
+
+* [ ] Complete the problems provided to you but skip over stretch problems until you are complete with every other JS file first.
+
+* [ ] Notice the last three problems are up to you to create and solve.  This is an awesome opportunity for you to push your critical thinking about array methods, have fun with it.
+
+## Task 4: Closures
+
+We have learned that closures allow us to access values in scope that have already been invoked (lexical scope).  
+
+**Hint: Utilize debugger statements in your code in combination with your developer tools to easily identify closure values.**
+
+* [ ] Review the contents of the [closure.js](assignments/closure.js) file.  
+* [ ] Complete the problems provided to you but skip over stretch problems until you are complete with every other JS file first.
+
+## Stretch Goals
+
+* [ ] Go back through the stretch problems that you skipped over and complete as many as you can.
+* [ ] Look up what an IIFE is in JavaScript and experiment with them
